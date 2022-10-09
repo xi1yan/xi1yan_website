@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="zn-CH">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learnCss</title>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body class="flex">
+    <!-- 侧边栏 -->
+    <div style="width: 200px; z-index: 2;" class="ceBian side">
+        <!-- 头像栏 -->
+        <div 
+            style="
+                padding: 10px;
+                align-items: center;
+                justify-content: center;
+                border-bottom: 1px solid #999;
+            "
+            class="flex">
+            <img src="https://tvax4.sinaimg.cn/crop.0.0.600.600.180/008gQzg6ly8gymcs1tlb5j30go0gowfq.jpg?KID=imgbed,tva&Expires=1665121169&ssig=KmL2m60VWa" 
+              alt="logo" class="touxiang">
+
+             <div style="margin-left: 10px;">xi1yan</div>
+        </div>
+        
+        <!-- 导航栏 -->
+        <div class="main">
+            <div class="daohang"><a href="./game.html" target="_blank">游戏</a></div>
+            <div class="daohang"><a href="./music.html" target="_blank">音乐</a></div>
+            <div class="daohang"><a href="./anime.html" target="_blank">动画</a></div>
+            <div class="daohang"><a href="./introduction.html" target="_blank">自我介绍</a></div>
+        </div>
+    </div>
+    <!-- 主区域 -->
+    <div class="main flex column">
+        <!-- 头部栏 -->
+        <div style="height: 60px; z-index: 1;" class="side">
+        </div>
+        <!-- 内容区 -->
+        <div style="overflow: auto;" class="neiRong main flex">
+            <!-- 左区 -->
+            <div style="flex: 3;" class="flex column mg8">
+                <!-- 数据区 -->
+                <div class="shuJuQu flex ">
+                    <!-- 数据块 -->
+                    <div class="shuJu main side mgr8 " style="height: 100px;">
+                        
+                    </div>
+                    <div class="shuJu main side mgr8 juZhong" style="height: 100px;">
+                        
+                    </div>
+                    <div class="shuJu main side mgr8 juZhong" style="height: 100px;">
+                       
+                    </div>
+                    <div class="shuJu main side juZhong" style="height: 100px;">
+                        
+                    </div>
+                </div>
+                <!-- 列表区 -->
+                <div>
+                    <!-- 列表项 -->
+                    <div style="height: 160px;" class="side mgt8">
+                        
+                    </div>
+                    <div style="height: 160px;" class="side mgt8"></div>
+                    <div style="height: 160px;" class="side mgt8">
+                        <p><b>学生学习用网站~~~</b></p>
+                        <p><b>部分素材来自网络，侵删致歉~~~</b></p>
+                    </div>
+                </div>
+            </div>
+            <!-- 右区 -->
+            <div style="flex: 1;" class="youQu flex column mgr8 mgt8">
+                <!-- 提示区 -->
+                <div style="height: 150px;" class="side">
+                    <p>歌曲欣赏</p>
+                    <audio src="./audio/03.Illumination.mp3" controls>
+                        
+                    </audio>
+                </div>
+                <!-- 消息区 -->
+                <div style="height: 300px;" class="side mgt8">
+                    <img src="./img/1.jpg" height="300px" alt="image" >
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+</html>
